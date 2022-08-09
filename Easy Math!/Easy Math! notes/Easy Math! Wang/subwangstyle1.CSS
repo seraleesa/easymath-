@@ -1,0 +1,90 @@
+@import url('https://fonts.google.com/specimen/Luckiest+Guy?query=lucki');
+
+body {
+	background-image: url(https://i.ibb.co/m0TyHvC/4.png);
+	background-repeat: no-repeat;
+	height:100%;
+	margin: 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: Luckiest Guy, cursive;
+}
+
+p { 
+	font-size: 25px;
+	font-family: Luckiest Guy, cursive;
+	
+}
+
+p1 {
+	font-size: 25px;
+	background-color: yellow;
+	font-family: Luckiest Guy, cursive;
+}
+
+
+p11 {
+	font-size: 25px;
+	font-family: Luckiest Guy, cursive;
+}
+
+
+div {text-align: center;}
+
+
+/* tools */
+
+.center{
+	display: block ;
+	margin-left: auto ;
+	margin-right: auto;
+	width: 50%;
+}
+
+#mySidenav a {
+	  position: absolute;
+	  left: -80px;
+	  transition: 0.3s;
+	  padding: 15px;
+	  width: 100px;
+	  text-decoration: none;
+	  font-size: 20px;
+	  color: white;
+	  border-radius: 0 5px 5px 0;
+	}
+
+	#mySidenav a:hover {
+	  left: 0;
+	}
+
+	#easyMath {
+	  font-family: Luckiest Guy, cursive;
+	  top: 20px;
+	  background-color: #4CAF50;
+	}
+
+	#back {
+	  font-family: Luckiest Guy, cursive;
+	  top: 80px;
+	  background-color: #2196F3;
+	}
+
+	#subtopik2{
+		font-family: Luckiest Guy, cursive;
+		top: 140px;
+		background-color: yellow;
+	}
+
+	#subtopik1{
+		font-family: Luckiest Guy, cursive;
+		top: 140px;
+		background-color: yellow;
+		
+	
+	}
+

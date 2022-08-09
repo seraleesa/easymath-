@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Masukkan nama anda untuk simpan skor!</h2>
+				<input type="text" name="name" id="username" placeholder="Masukkan nama">
+<button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Simpan</button>
+            </form>
+            <a href="game.html" class="btn">Main Semula</a>
+            <a href="../Easy Math! Quiz Main1.html" class="btn">Halaman Kuiz<i class="fas fa-home"></i></a>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>

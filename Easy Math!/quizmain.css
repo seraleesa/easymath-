@@ -1,0 +1,114 @@
+@import url('https://fonts.google.com/specimen/Luckiest+Guy?query=lucki');
+/* CSS Document */
+body {
+	  background-image:url("../images/bg(2).png"); 
+	  background-size:1536px 755px;
+	  font-family: Luckiest Guy, cursive;
+	  background-size: cover;
+	  background-attachment: fixed;
+	 
+	}
+		
+		/* Header/Logo Title */
+		.header {
+		  padding: 50px;
+		  text-align: center;
+		  color: black;
+		  font-size: 50px;
+		}
+
+		/* Page Content */
+		* {
+			box-sizing: border-box;
+		}
+
+		
+	.button1 {  
+		text-align: center;
+       	background-color: blueviolet; 
+		display: inline-block;
+       	width: 40%; 
+		height: 180px; 
+        padding: 15px;
+        margin-left: 30px;
+		margin-right: 30px;
+        border: none;   
+        cursor: pointer;   
+         }   
+	.button2 {   
+		text-align: center;
+       	background-color: blueviolet; 
+		display: inline-block;
+        width: 40%; 
+		height: 180px; 
+        padding: 15px;   
+        margin-left: 70px;
+		margin-right: 30px;
+        border: none;   
+        cursor: pointer;  
+         }   
+	.button1:hover {   
+        opacity: 0.7;   
+    	}   
+  		.cancelbtn {   
+        width: auto; 
+        padding: 10px 18px;  
+        margin: 10px 5px; 
+    	}
+	.button2:hover {   
+        opacity: 0.7;   
+    	}   
+  		.cancelbtn {   
+        width: auto; 
+        padding: 10px 18px;  
+        margin: 10px 5px; 
+    	}
+	a {
+	  text-decoration: none;
+	  display: inline-block;
+	  padding: 8px 16px;
+		}
+
+	a:hover {
+	  background-color: red;
+	  color: black;
+	}
+
+	.previous {
+	  background-color: #f1f1f1;
+	  color: black;
+	}
+	.container {
+		margin: auto;
+        padding: 40px;
+		width: 60%;
+        background-color: #8CC9DE;
+		border: 5px solid #9AD9E6;
+    	} 
+	
+div {text-align: center;}
+	#mySidenav a {
+	  position: absolute;
+	  left: -80px;
+	  transition: 0.3s;
+	  padding: 15px;
+	  width: 100px;
+	  text-decoration: none;
+	  font-size: 20px;
+	  color: white;
+	  border-radius: 0 5px 5px 0;
+	}
+
+	#mySidenav a:hover {
+	  left: 0;
+	}
+
+	#easyMath {
+	  top: 20px;
+	  background-color: #4CAF50;
+	}
+
+	#back {
+	  top: 80px;
+	  background-color: #2196F3;
+	}

@@ -1,0 +1,67 @@
+@import url('https://fonts.google.com/specimen/Luckiest+Guy?query=lucki');
+/* CSS Document */
+body {
+	  background-image:url("../images/bg(2).png"); 
+	  background-size:1536px 755px;
+	  font-family: Luckiest Guy, cursive;
+	  background-size: cover;
+	  background-attachment: fixed;
+	}
+	
+	/* Header/Logo Title */
+		.header {
+		  padding: 20px;
+		  text-align: center;
+		  color: black;
+		  font-size: 50px;
+		}
+  		.container {
+		margin: auto;
+        padding: 40px;
+		width: 60%; 
+        background-color: darkkhaki;  
+		border: 5px solid darkblue;
+    	}  
+	div {text-align: center;}
+	
+	a {
+	  text-decoration: none;
+	  display: inline-block;
+	  padding: 8px 16px;
+	}
+
+	a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	.previous {
+	  background-color: #f1f1f1;
+	  color: black;
+	}
+	
+	#mySidenav a {
+	  position: absolute;
+	  left: -80px;
+	  transition: 0.3s;
+	  padding: 15px;
+	  width: 100px;
+	  text-decoration: none;
+	  font-size: 20px;
+	  color: white;
+	  border-radius: 0 5px 5px 0;
+	}
+
+	#mySidenav a:hover {
+	  left: 0;
+	}
+
+	#easyMath {
+	  top: 20px;
+	  background-color: #4CAF50;
+	}
+
+	#back {
+	  top: 80px;
+	  background-color: #2196F3;
+	}

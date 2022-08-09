@@ -1,0 +1,87 @@
+@import url('https://fonts.google.com/specimen/Luckiest+Guy?query=lucki');
+
+body{
+		background-image:url("../images/bg (1).png"); 
+		background-repeat: no-repeat; 
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	
+	div {text-align: center;}
+	
+	button1 {   
+       	background-color: blueviolet;   
+       	width: 80%;  
+        color: black;   
+        padding: 30px;   
+        margin: 80px 20px;
+		position: relative;
+		top: 20px;
+        border: none;   
+        cursor: pointer;   
+         }
+	
+	button2 {   
+       	background-color: darkgoldenrod;   
+       	width: 50%;  
+        color: black;   
+        padding: 30px;   
+        margin: 10px 0px;
+		position: relative;
+		top: 20px;
+        border: none;   
+        cursor: pointer;   
+         } 
+	
+	button3 {   
+       	background-color: purple;   
+       	width: 50%;  
+        color: black;   
+        padding: 30px;   
+        margin: 40px 0px;
+		position: relative;
+		top: 20px;
+        border: none;   
+        cursor: pointer;   
+         } 
+	
+	button4 {   
+       	background-color: deeppink;   
+       	width: 80%;  
+        color: black;   
+        padding: 30px;
+		padding-left: 50px;
+		padding-right: 50px;
+        margin: 40px 0px;   
+		position: relative;
+		bottom: 20px;
+        border: none;   
+        cursor: pointer;   
+         }  
+ 	
+ 	button1:hover {   
+        opacity: 0.7;   
+    	}  
+	button2:hover {   
+        opacity: 0.7;   
+    	}  
+	button3:hover {   
+        opacity: 0.7;   
+    	} 
+	button4:hover {   
+        opacity: 0.7;   
+    	}  
+  	
+	.container {
+		margin: auto;
+		margin-top: 50px;
+        padding: 40px;
+		width: 60%;
+        background-color: #8CC9DE;
+		font-family: 'Luckiest Guy', cursive;
+		font-weight: bold;
+		font-size: 25px;
+        border: none;
+		position: relative;
+		top: 300px;
+    	}  
